@@ -13,14 +13,14 @@ Getting started
 
 * Add scripts to system path:
 
-      PATH=$PWD/scripts:$PATH       # on Mac/Linux/BSD/Unix
-      set PATH=%CD%\scripts;%PATH%  # on Windows
+        PATH=$PWD/scripts:$PATH       # on Mac/Linux/BSD/Unix
+        set PATH=%CD%\scripts;%PATH%  # on Windows
 
 * Get dependencies and vendor libraries:
 
-      init
+        init
 
 * Run development server on http://localhost:3333:
 
-      server
+        server
 
