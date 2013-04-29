@@ -1,0 +1,9 @@
+#!/bin/sh
+
+[ "$OS" = "Windows_NT" ] && CMD="${0//\\/\/}" || CMD="$0"; BIN="${CMD%/*}"; [ "$BIN" = "$CMD" ] && BIN=.
+
+cd "$BIN/.." || exit $?
+
+[ ! -d .build ] || rm -rf .build || exit $?
+
+DEBUG='brunch:*' node_modules/.bin/brunch watch --server "$@"

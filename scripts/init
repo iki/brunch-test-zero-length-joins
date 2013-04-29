@@ -1,0 +1,12 @@
+#!/bin/sh
+
+[ "$OS" = "Windows_NT" ] && CMD="${0//\\/\/}" || CMD="$0"; BIN="${CMD%/*}"; [ "$BIN" = "$CMD" ] && BIN=.
+
+cd "$BIN/.." || exit $?
+
+# [ ! -d vendor ] || rm -rf vendor || exit $?
+# [ ! -d node_modules ] || rm -rf node_modules || exit $?
+
+if [ -d node_modules ]; then npm xx; else npm install; fi || exit $?
+
+./node_modules/.bin/bower install

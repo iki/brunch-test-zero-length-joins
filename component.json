@@ -1,0 +1,24 @@
+{
+  "name": "pubbuddy",
+  "version": "0.1.0",
+  "main": [],
+  "dependencies": {
+    "html5shiv": "*",
+    "console-polyfill": "*",
+
+    "zepto": "1.x",
+    "zepto-sources": "1.x",
+    "zepto-replace-jquery": "1.x",
+
+    "jquery": "1.9.x",
+
+    "bootstrap-sass": "2.3.x",
+    "font-awesome": "3.x",
+
+    "angular": "1.0.x",
+    "angular-sanitize": "1.0.x",
+    "angular-resource": "1.0.x",
+    "angular-cookies": "1.0.x",
+    "angular-mocks": "1.0.x"
+  }
+}

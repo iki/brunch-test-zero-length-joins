@@ -1,0 +1,691 @@
+
+C:\Users\iki\..js\brunch-test-zero-length-joins.iki>cd "C:\Users\iki\..js\brunch-test-zero-length-joins.iki\scripts\.."   || exit /b 1 
+
+C:\Users\iki\..js\brunch-test-zero-length-joins.iki>if exist .build rd /s /q .build   || exit /b 1 
+
+C:\Users\iki\..js\brunch-test-zero-length-joins.iki>set DEBUG=brunch:* 
+
+C:\Users\iki\..js\brunch-test-zero-length-joins.iki>call node_modules\.bin\brunch watch --server    || exit /b 1 
+=== [C:\Users\iki\..js\brunch-test-zero-length-joins.iki] === "C:\Program Files\nodejs\node.exe" C:\Users\iki\..js\brunch-test-zero-length-joins.iki\node_modules\.bin\\..\brunch\bin\brunch watch --server 
+29 Apr 09:03:38 - [32minfo[0m: application started on http://localhost:3333/
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'package.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'config.coffee' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file config.coffee (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'config.coffee' [6768]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'config.coffee' [4026:4026]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'config.coffee'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'app\ie8.coffee' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file app\ie8.coffee (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'app\app.coffee' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file app\app.coffee (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'app\index.jade' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file app\index.jade (template)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'app\ie8.coffee' [97]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'app\ie8.coffee' [19:19]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'app\ie8.coffee'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'app\app.coffee' [128]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'app\app.coffee' [63:63]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'app\app.coffee'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'app\index.jade' [657]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'app\index.jade' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'app\index.jade'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular\angular.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-cookies\angular-cookies.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\angular-cookies\angular-cookies.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-cookies\angular-cookies.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular\bower.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-resource\component.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-resource\README.md' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-cookies\README.md' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-mocks\angular-mocks.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\angular-mocks\angular-mocks.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-mocks\component.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-mocks\README.md' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\bootstrap-2.3.1.css' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\bootstrap-2.3.1.css (stylesheet)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\bootstrap-2.3.1.min.css' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\bootstrap-2.3.1.min.css (stylesheet)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\bootstrap-responsive-2.3.1.css' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\bootstrap-responsive-2.3.1.css (stylesheet)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\bootstrap-responsive-2.3.1.min.css' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\bootstrap-responsive-2.3.1.min.css (stylesheet)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\CHANGELOG.md' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\component.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\composer.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\CONTRIBUTING.md' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-mocks\angular-mocks.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\Gemfile' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular\angular.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\angular\angular.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\Makefile' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-cookies\component.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\README.md' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-sanitize\component.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\Rakefile' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-sanitize\angular-sanitize.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\angular-sanitize\angular-sanitize.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\console-polyfill\Readme.md' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\console-polyfill\component.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\console-polyfill\Makefile' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\LICENSE' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\build.xml' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\console-polyfill\index.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\console-polyfill\index.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-sanitize\angular-sanitize.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\jquery\component.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\jquery\composer.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\jquery\jquery.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\jquery\jquery.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\jquery\jquery.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\jquery\package.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\jquery\README.md' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto\bower.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto\component.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto\composer.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto\Makefile' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto\README.md' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto\zepto.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto\zepto.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-replace-jquery\bower.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto\zepto.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-replace-jquery\component.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-replace-jquery\composer.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-resource\angular-resource.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-replace-jquery\README.md' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-replace-jquery\zepto-replace-jquery.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-replace-jquery\zepto-replace-jquery.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\Gemfile.lock' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\component.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\bower.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\composer.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\jquery\jquery-migrate.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\bower.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-sanitize\README.md' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\package.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\readme.md' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\MIT-LICENSE' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\jquery\jquery-migrate.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\jquery\jquery-migrate.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\angular-resource\angular-resource.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\angular-resource\angular-resource.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\README.md' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\package.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\bower.json' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\README.md' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\angular-cookies\angular-cookies.js' [5169]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\angular-cookies\angular-cookies.js' [5169:5169]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\angular-cookies\angular-cookies.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\angular-mocks\angular-mocks.js' [56250]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\angular-mocks\angular-mocks.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\angular-mocks\angular-mocks.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\bootstrap-2.3.1.css' [126805]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\bootstrap-2.3.1.css' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\bootstrap-2.3.1.css'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\bootstrap-responsive-2.3.1.css' [22111]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\bootstrap-responsive-2.3.1.css' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\bootstrap-responsive-2.3.1.css'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\bootstrap-2.3.1.min.css' [106709]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\bootstrap-2.3.1.min.css' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\bootstrap-2.3.1.min.css'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\bootstrap-responsive-2.3.1.min.css' [16885]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\bootstrap-responsive-2.3.1.min.css' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\bootstrap-responsive-2.3.1.min.css'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\angular\angular.js' [489903]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\angular\angular.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\angular\angular.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\angular-sanitize\angular-sanitize.js' [17444]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\angular-sanitize\angular-sanitize.js' [17444:17444]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\angular-sanitize\angular-sanitize.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\console-polyfill\index.js' [511]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\console-polyfill\index.js' [511:511]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\console-polyfill\index.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto\zepto.js' [55915]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto\zepto.js' [55915:55915]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto\zepto.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-replace-jquery\zepto-replace-jquery.js' [58]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-replace-jquery\zepto-replace-jquery.js' [58:58]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-replace-jquery\zepto-replace-jquery.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\jquery\jquery.js' [268380]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\jquery\jquery.js' [268380:268380]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\jquery\jquery.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\jquery\jquery-migrate.js' [16270]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\jquery\jquery-migrate.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\jquery\jquery-migrate.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\angular-resource\angular-resource.js' [17147]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\angular-resource\angular-resource.js' [17147:17147]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\angular-resource\angular-resource.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\docs\base-css.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\docs\components.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\docs\customize.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\docs\extend.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\docs\getting-started.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\docs\index.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\docs\javascript.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\docs\scaffolding.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\bootstrap.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\responsive.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_accordion.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_alerts.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_breadcrumbs.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_button-groups.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_buttons.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_carousel.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_close.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_code.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_component-animations.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_dropdowns.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_forms.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_grid.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_labels-badges.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_layouts.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_media.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_mixins.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_modals.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_navbar.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_hero-unit.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_navs.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_pager.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_pagination.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_popovers.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_progress-bars.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_reset.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_responsive-1200px-min.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_responsive-767px-max.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_responsive-768px-979px.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_responsive-navbar.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_responsive-utilities.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_scaffolding.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_sprites.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_thumbnails.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_tables.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_tooltip.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_type.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_utilities.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_variables.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\img\glyphicons-halflings-white.png' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\lib\_wells.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\img\glyphicons-halflings.png' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\dist\html5shiv-printshiv.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\dist\html5shiv.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\src\html5shiv.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\html5shiv\src\html5shiv.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\src\html5shiv-printshiv.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\html5shiv\src\html5shiv-printshiv.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\test\iframe.1-1.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\test\iframe.1-2.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\test\iframe.1.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\test\html5shiv.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\test\index.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\test\mixed-test.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\test\object-test.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\test\perf.1.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\test\perf.2.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\test\style.css' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\test\style.print.css' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\test\style.all.css' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\js\bootstrap-alert.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\js\bootstrap-alert.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\js\bootstrap-affix.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\js\bootstrap-affix.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\js\bootstrap-button.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\js\bootstrap-button.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\js\bootstrap-carousel.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\js\bootstrap-carousel.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\js\bootstrap-dropdown.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\js\bootstrap-dropdown.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\js\bootstrap-collapse.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\js\bootstrap-collapse.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\js\bootstrap-modal.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\js\bootstrap-modal.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\js\bootstrap-popover.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\js\bootstrap-popover.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\js\bootstrap-scrollspy.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\js\bootstrap-scrollspy.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\js\bootstrap-tab.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\js\bootstrap-tab.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\js\bootstrap-tooltip.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\js\bootstrap-tooltip.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\js\bootstrap-transition.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\js\bootstrap-transition.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\bootstrap-sass\js\bootstrap-typeahead.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\bootstrap-sass\js\bootstrap-typeahead.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\src\ajax.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-sources\src\ajax.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\src\assets.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-sources\src\assets.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\src\data.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-sources\src\data.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\src\detect.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-sources\src\detect.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\src\event.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-sources\src\event.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\src\form.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-sources\src\form.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\src\fx.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-sources\src\fx.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\src\fx_methods.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-sources\src\fx_methods.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\src\gesture.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-sources\src\gesture.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\src\polyfill.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-sources\src\polyfill.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\src\stack.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-sources\src\stack.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\src\selector.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-sources\src\selector.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\src\touch.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-sources\src\touch.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\zepto-sources\src\zepto.js' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\zepto-sources\src\zepto.js (javascript)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\html5shiv\build\compiler.jar' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\css\font-awesome-ie7.min.css' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\font-awesome\css\font-awesome-ie7.min.css (stylesheet)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\css\font-awesome.css' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\font-awesome\css\font-awesome.css (stylesheet)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\css\font-awesome.min.css' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file vendor\font-awesome\css\font-awesome.min.css (stylesheet)
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\less\font-awesome-ie7.less' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\less\font-awesome.less' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\docs\design.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\docs\test.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\sass\font-awesome.scss' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\sass\font-awesome.sass' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\docs\index.html' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\font\fontawesome-webfont.eot' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\font\fontawesome-webfont.ttf' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\font\fontawesome-webfont.woff' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\font\FontAwesome.otf' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:watch File 'vendor\font-awesome\font\fontawesome-webfont.svg' received event 'add'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\html5shiv\src\html5shiv.js' [9414]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\html5shiv\src\html5shiv.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\html5shiv\src\html5shiv.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\html5shiv\src\html5shiv-printshiv.js' [15367]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\html5shiv\src\html5shiv-printshiv.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\html5shiv\src\html5shiv-printshiv.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\js\bootstrap-button.js' [2841]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\js\bootstrap-button.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\js\bootstrap-button.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\js\bootstrap-carousel.js' [6057]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\js\bootstrap-carousel.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\js\bootstrap-carousel.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\js\bootstrap-dropdown.js' [4203]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\js\bootstrap-dropdown.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\js\bootstrap-dropdown.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\js\bootstrap-collapse.js' [4735]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\js\bootstrap-collapse.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\js\bootstrap-collapse.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\js\bootstrap-modal.js' [6656]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\js\bootstrap-modal.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\js\bootstrap-modal.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\js\bootstrap-popover.js' [3115]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\js\bootstrap-popover.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\js\bootstrap-popover.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\js\bootstrap-scrollspy.js' [4655]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\js\bootstrap-scrollspy.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\js\bootstrap-scrollspy.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\js\bootstrap-tab.js' [3496]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\js\bootstrap-tab.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\js\bootstrap-tab.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\js\bootstrap-tooltip.js' [9911]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\js\bootstrap-tooltip.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\js\bootstrap-tooltip.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\js\bootstrap-transition.js' [1756]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\js\bootstrap-transition.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\js\bootstrap-transition.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\js\bootstrap-typeahead.js' [8320]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\js\bootstrap-typeahead.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\js\bootstrap-typeahead.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\js\bootstrap-affix.js' [3483]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\js\bootstrap-affix.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\js\bootstrap-affix.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\bootstrap-sass\js\bootstrap-alert.js' [2524]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\bootstrap-sass\js\bootstrap-alert.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\bootstrap-sass\js\bootstrap-alert.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-sources\src\ajax.js' [10967]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-sources\src\ajax.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-sources\src\ajax.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-sources\src\assets.js' [581]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-sources\src\assets.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-sources\src\assets.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-sources\src\data.js' [2158]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-sources\src\data.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-sources\src\data.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-sources\src\detect.js' [2618]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-sources\src\detect.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-sources\src\detect.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-sources\src\form.js' [1160]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-sources\src\form.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-sources\src\form.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-sources\src\event.js' [8396]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-sources\src\event.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-sources\src\event.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-sources\src\fx.js' [3971]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-sources\src\fx.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-sources\src\fx.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-sources\src\fx_methods.js' [2102]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-sources\src\fx_methods.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-sources\src\fx_methods.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-sources\src\gesture.js' [1138]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-sources\src\gesture.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-sources\src\gesture.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-sources\src\polyfill.js' [1140]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-sources\src\polyfill.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-sources\src\polyfill.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-sources\src\stack.js' [560]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-sources\src\stack.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-sources\src\stack.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-sources\src\selector.js' [3071]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-sources\src\selector.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-sources\src\selector.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-sources\src\touch.js' [3545]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-sources\src\touch.js' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-sources\src\touch.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\zepto-sources\src\zepto.js' [28410]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\zepto-sources\src\zepto.js' [28410:28410]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\zepto-sources\src\zepto.js'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\font-awesome\css\font-awesome-ie7.min.css' [25255]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\font-awesome\css\font-awesome-ie7.min.css' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\font-awesome\css\font-awesome-ie7.min.css'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\font-awesome\css\font-awesome.css' [21596]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\font-awesome\css\font-awesome.css' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\font-awesome\css\font-awesome.css'
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Loaded file 'vendor\font-awesome\css\font-awesome.min.css' [15725]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:source-file Cached file 'vendor\font-awesome\css\font-awesome.min.css' [0:0]
+Mon, 29 Apr 2013 07:03:38 GMT brunch:file-list Compiled file 'vendor\font-awesome\css\font-awesome.min.css'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\index.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\package.json' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\examples\fluid.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\examples\hero.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\examples\justified-nav.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\examples\carousel.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\examples\marketing-narrow.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\examples\starter-template.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\examples\signin.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\examples\sticky-footer-navbar.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\examples\sticky-footer.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\templates\layout.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\lib\tests\buttons.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\lib\tests\css-tests.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\lib\tests\forms-responsive.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\lib\tests\forms.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\lib\tests\css-tests.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\lib\tests\navbar.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\lib\tests\navbar-fixed-top.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\data\body-crash.jpg' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\lib\tests\navbar-static-top.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\data\iframed-tests.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\data\inline-mixed-media.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\data\inline-print-media.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\data\no-print.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\data\paramtracer.swf' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\data\print-styles.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\data\print.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\data\screen.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\highcharts\area-basic.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\highcharts\highcharts.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\jquery-1.7.1\index.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\qunit\qunit.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\unit\tests.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\qunit\qunit.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\index.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\server.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\phantom.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:generate Joining files 'vendor\html5shiv\src\html5shiv.js [0], app\ie8.coffee [19]' to '.build\js\ie8.js'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:common Writing file '.build\js\ie8.js'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:generate Joining files 'app\app.coffee [63]' to '.build\js\app.js'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:common Writing file '.build\js\app.js'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:generate Joining files 'app\index.jade [0]' to '.build\.compile-jade'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:common Writing file '.build\.compile-jade'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:generate Joining files 'vendor\console-polyfill\index.js [511], vendor\zepto-sources\src\zepto.js [28410], vendor\zepto-sources\src\ajax.js [0], vendor\zepto-sources\src\data.js [0], vendor\zepto-sources\src\detect.js [0], vendor\zepto-sources\src\event.js [0], vendor\zepto-sources\src\form.js [0], vendor\zepto-sources\src\fx.js [0], vendor\zepto-sources\src\fx_methods.js [0], vendor\zepto-sources\src\polyfill.js [0], vendor\zepto-sources\src\selector.js [0], vendor\zepto-sources\src\touch.js [0], vendor\zepto-replace-jquery\zepto-replace-jquery.js [58], vendor\angular\angular.js [0], vendor\bootstrap-sass\js\bootstrap-alert.js [0], vendor\bootstrap-sass\js\bootstrap-button.js [0], vendor\bootstrap-sass\js\bootstrap-carousel.js [0], vendor\bootstrap-sass\js\bootstrap-dropdown.js [0], vendor\bootstrap-sass\js\bootstrap-tab.js [0]' to '.build\js\vendor.js'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:common Writing file '.build\js\vendor.js'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:generate Joining files 'vendor\console-polyfill\index.js [511], vendor\jquery\jquery.js [268380], vendor\angular\angular.js [0], vendor\bootstrap-sass\js\bootstrap-alert.js [0], vendor\bootstrap-sass\js\bootstrap-button.js [0], vendor\bootstrap-sass\js\bootstrap-carousel.js [0], vendor\bootstrap-sass\js\bootstrap-dropdown.js [0], vendor\bootstrap-sass\js\bootstrap-tab.js [0]' to '.build\js\vendor-ie.js'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:common Writing file '.build\js\vendor-ie.js'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\bootstrap-docs-readme.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\bootstrap-mdo-sfmoma-01.jpg' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\bootstrap-mdo-sfmoma-02.jpg' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\bootstrap-mdo-sfmoma-03.jpg' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\bs-docs-bootstrap-features.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\bs-docs-masthead-pattern.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\bs-docs-responsive-illustrations.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\bs-docs-twitter-github.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\glyphicons-halflings-white.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\grid-baseline-20px.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\glyphicons-halflings.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\responsive-illustrations.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\less-logo-large.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\application.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap-affix.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap-alert.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap-button.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap-collapse.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap-carousel.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap-dropdown.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap-modal.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap-popover.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap-tab.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap-scrollspy.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap-tooltip.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap-typeahead.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\bootstrap-transition.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\html5shiv.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\README.md' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\jquery.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\ico\apple-touch-icon-144-precomposed.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\ico\favicon.ico' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\ico\favicon.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\templates\pages\base-css.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\ico\apple-touch-icon-57-precomposed.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\templates\pages\components.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\templates\pages\customize.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\templates\pages\scaffolding.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\ico\apple-touch-icon-114-precomposed.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\templates\pages\index.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\jquery-1.7.1\data\dashboard.xml' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\templates\pages\extend.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\jquery-1.7.1\data\iframe.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\ico\apple-touch-icon-72-precomposed.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\jquery-1.7.1\data\test.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\jquery-1.7.1\data\testrunner.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\jquery-1.7.1\data\testinit.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\jquery-1.7.1\data\testsuite.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\jquery-1.7.1\data\versioncheck.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\jquery-1.7.1\unit\core.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\jquery-1.7.1\unit\manipulation.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\html5shiv\test\jquery-1.7.1\unit\traversing.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\css\bootstrap-responsive.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\templates\pages\javascript.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\vendor\jquery.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\templates\pages\getting-started.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\css\docs.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\css\bootstrap.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\vendor\qunit.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\vendor\qunit.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\unit\bootstrap-affix.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\unit\bootstrap-alert.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\unit\bootstrap-button.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\unit\bootstrap-carousel.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\unit\bootstrap-collapse.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\unit\bootstrap-dropdown.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\unit\bootstrap-phantom.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\unit\bootstrap-modal.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\unit\bootstrap-popover.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\unit\bootstrap-scrollspy.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\unit\bootstrap-tooltip.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\unit\bootstrap-tab.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\unit\bootstrap-transition.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\js\tests\unit\bootstrap-typeahead.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\css\font-awesome-ie7.min.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\css\font-awesome.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\css\font-awesome.min.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\css\prettify.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\css\site.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\font\fontawesome-webfont.svg' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\font\fontawesome-webfont.eot' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\font\fontawesome-webfont.ttf' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\font\fontawesome-webfont.woff' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\font\museo_slab_300-webfont.eot' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\font\museo_slab_300-webfont.ttf' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\font\museo_slab_500-webfont.eot' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\font\FontAwesome.otf' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\font\museo_slab_500-webfont.ttf' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\font\proximanova-sbold-webfont.ttf' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\font\proximanova-webfont.eot' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\font\proximanova-sbold-webfont.eot' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\font\proximanova-webfont.ttf' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\ico\favicon.ico' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\img\contribution-sample.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\img\glyphicons-halflings-white.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\img\fort_awesome.jpg' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\img\icon-flag.pdf' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\js\bootstrap-222.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\img\glyphicons-halflings.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\js\backbone.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\js\prettify.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\js\jquery-1.7.1.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\js\underscore.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\font-awesome-ie7.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\font-awesome.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\site.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\mixins.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\variables.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\font-site.less' received event 'add'
+29 Apr 09:03:39 - [32minfo[0m: compiled in 584ms
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\example-sites\8020select.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\example-sites\adoptahydrant.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\example-sites\breakingnews.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\example-sites\fleetio.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\example-sites\gathercontent.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\example-sites\soundready.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\example-sites\kippt.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\example-sites\jshint.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\examples\bootstrap-example-fluid.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\examples\bootstrap-example-justified-nav.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\examples\bootstrap-example-carousel.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\examples\bootstrap-example-marketing-narrow.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\examples\bootstrap-example-marketing.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\examples\bootstrap-example-signin.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\examples\bootstrap-example-starter.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\examples\bootstrap-example-sticky-footer.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\examples\browser-icon-safari.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\examples\browser-icon-chrome.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\examples\browser-icon-firefox.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\examples\slide-03.jpg' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\examples\slide-02.jpg' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\img\examples\slide-01.jpg' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\holder\holder.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\google-code-prettify\prettify.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\assets\js\google-code-prettify\prettify.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\Makefile' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\package.json' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\README.md' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\LICENSE' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\js\index\index.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\accordion.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\alerts.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\breadcrumbs.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\code.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\close.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\component-animations.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\button-groups.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\carousel.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\grid.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\dropdowns.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\forms.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\bootstrap.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\media.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\hero-unit.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\layouts.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\modals.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\mixins.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\labels-badges.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\buttons.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\pagination.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\popovers.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\navbar.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\navs.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\pager.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\progress-bars.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\responsive-1200px-min.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\responsive-navbar.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\responsive-767px-max.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\responsive-768px-979px.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\responsive-utilities.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\responsive.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\scaffolding.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\sprites.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\tables.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\tooltip.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\variables.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\thumbnails.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\type.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\wells.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\reset.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\utilities.less' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\bin\hulk' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\lib\hogan.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\lib\template.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\lib\compiler.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\index.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\tools\release.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\tools\web_templates.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\index.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\mustache.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\wrappers\amd.js.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\wrappers\common.js.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\index.html.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\wrappers\mustache.js.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\wrappers\js.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\favicon.ico' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\tests\css-tests.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\tests\buttons.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\tests\css-tests.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\tests\forms-responsive.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\tests\forms.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\tests\navbar-static-top.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\tests\navbar-fixed-top.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\font-awesome\docs\assets\less\twbs-222\tests\navbar.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\Changes' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\README.md' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\html\list.html' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\Rakefile' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\TESTING.md' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\1.0.0\hogan.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\stylesheets\layout.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\1.0.0\hogan.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\images\logo.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\templates\list.mustache' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\images\small-hogan-icon.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\stylesheets\skeleton.css' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\images\noise.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\images\stripes.png' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\specs\comments.yml' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\specs\delimiters.json' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\specs\comments.json' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\specs\interpolation.json' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\specs\interpolation.yml' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\specs\inverted.json' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\specs\partials.yml' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\specs\inverted.yml' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\specs\partials.json' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\specs\sections.json' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\specs\~lambdas.json' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\builds\1.0.3\hogan.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\specs\delimiters.yml' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\specs\~lambdas.yml' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\builds\1.0.3\hogan.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\builds\1.0.0\hogan.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\builds\1.0.0\hogan.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.amd.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.common.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.min.amd.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.min.common.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.min.mustache.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\test\spec\specs\sections.yml' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.mustache.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\builds\1.0.5\template-1.0.5.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\builds\1.0.5\hogan-1.0.5.min.js' received event 'add'
+Mon, 29 Apr 2013 07:03:39 GMT brunch:watch File 'vendor\bootstrap-sass\docs\build\node_modules\hogan.js\web\builds\1.0.5\template-1.0.5.min.js' received event 'add'
