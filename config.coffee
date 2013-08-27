@@ -158,7 +158,7 @@ exports.config =
         ]
 
     templates:
-      joinTo: 
+      joinTo:
         '.compile-jade': /^app/  # Hack for auto-compiling Jade templates.
 
   plugins:
@@ -168,13 +168,3 @@ exports.config =
     jade_angular:
       modules_folder: 'partials'
       locals: {}
-
-    bower:
-      extend:
-        # 'bootstrap' : 'vendor/bootstrap-sass/docs/assets/js/bootstrap.js'
-        'angular-mocks': []
-        'styles': []
-      asserts:
-        # 'img' : /bootstrap[\\\/]img/
-        'font': /font-awesome[\\\/]font/
-

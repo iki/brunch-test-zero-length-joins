@@ -31,9 +31,6 @@
     "uglify-js-brunch": "1.x",
     "clean-css-brunch": "1.x",
 
-    "bower-stylesheet-brunch": "https://github.com/GulinSS/bower-stylesheet-brunch/tarball/master",
-    "bower-javascript-brunch": "https://github.com/GulinSS/bower-javascript-brunch/tarball/master",
-    "bower-asserts-brunch": "*",
     "bower": "*",
 
     "jade-angularjs-brunch": "https://github.com/iki/jade-angularjs-brunch/tarball/master",
